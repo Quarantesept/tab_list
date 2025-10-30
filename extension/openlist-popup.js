@@ -1,6 +1,6 @@
 function initPopup() {
     chrome.windows.getCurrent( function(window) {
-        chrome.tabs.getAllInWindow(window.id, function(tabs){
+        chrome.tabs.query({windowId: window.id}, function(tabs){
             if (!tabs.length) return;
 
             var listTextArea = document.getElementById("list");
