@@ -1,5 +1,36 @@
 # OpenList Chrome Extension
 
+<!-- README_SYNC:START -->
+
+## Documentation Status (2026-06-28)
+
+- **Project type**: Chrome extension utility
+- **Primary stack**: Chrome extension manifest + vanilla JavaScript + static popup/background pages
+- **Runtime/service**: `chrome://extensions` developer mode or Chrome Web Store package
+- **Canonical docs**: this `README.md`, `CHANGELOG.md`, and extension files in `extension/`.
+- **Global documentation principles**: see `loomia-ops/docs/GITHUB_PROJECT_DOCUMENTATION_PRINCIPLES.md`.
+
+### Quick Commands
+
+Run:
+```bash
+# Load `extension/` as an unpacked Chrome extension
+# or package the `extension/` folder for distribution.
+```
+
+Verify:
+```bash
+node --check extension/background.js
+node --check extension/openlist-lib.js
+node --check extension/openlist-popup.js
+```
+
+### Maintainer Notes
+- Public browser utility for opening URL/search-term lists in tabs.
+- Preserve the no-build static extension model unless a migration is intentional.
+
+<!-- README_SYNC:END -->
+
 OpenList helps you manage lists of URLs. It's useful if you have a habit of emailing yourself lists of articles or pages to check out later.
 
 With OpenList, you can:
