@@ -7,7 +7,7 @@
 - **Project type**: Chrome extension utility
 - **Primary stack**: Chrome extension manifest + vanilla JavaScript + static popup/background pages
 - **Runtime/service**: `chrome://extensions` developer mode or Chrome Web Store package
-- **Canonical docs**: this `README.md`, `CHANGELOG.md`, and extension files in `extension/`.
+- **Canonical docs**: this `README.md`, `CHANGELOG.md`, `docs/TECHNICAL_DOCUMENTATION.md`, and project-specific files in `docs/` or `ROADMAP.md` when present.
 - **Global documentation principles**: see `loomia-ops/docs/GITHUB_PROJECT_DOCUMENTATION_PRINCIPLES.md`.
 
 ### Quick Commands
